@@ -18,17 +18,19 @@ import { useMutation } from '@apollo/client';
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
-
+  const token = Auth.loggedIn() ? Auth.getToken() : null;
+  console.log(token);
   // use this to determine if `useEffect()` hook needs to run again
   const userDataLength = Object.keys(userData).length;
-
+  console.log(userDataLength);
   const GetMe = () => {
-    const { name: userParam } = useParams();
+    const { username: userParam } = useParams();
+    console.log(userParam);
 
-    const { data } = useQuery(userParam, GET_ME, {
+    const { loading, data } = useQuery(userParam, GET_ME, {
       variables: { name: userParam },
     });
-
+    console.log(data);
     const userData = data?.me || {};
     // navigate to personal profile page if username is yours
     setUserData(userData);

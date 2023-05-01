@@ -88,7 +88,7 @@ const SearchBooks = () => {
   // };
 
   const HandleSaveBook = async ({ bookId }) => {
-    bookId.preventDefault();
+
     // const [book, setBook] = useState('');
     const [addBooks, { error }] = useMutation(SAVE_BOOK);
     const token = Auth.loggedIn() ? Auth.getToken() : null;
