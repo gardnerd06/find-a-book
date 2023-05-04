@@ -6,6 +6,9 @@
 
 The goal of this project is to use the Google Books API search engine built with a RESTful API, refactor the code to be a GraphQL API built with Apollo Server. Starter code was supplied and I refactored it to use GraphQL and Apollo.
 
+[Github]<https://github.com/gardnerd06/find-a-book>
+[Heroku]<https://mighty-brushlands-72222.herokuapp.com/>
+
 ## Table of Content
 
 - [Description](#description)
