@@ -20,6 +20,9 @@ The goal of this project is to use the Google Books API search engine built with
 Daniel Gardner
 
 ## Screenshots
+![Screen Shot 2023-05-04 at 7 38 46 AM](https://user-images.githubusercontent.com/115792714/236194036-9a8df5dc-7e82-48aa-b9a6-19fd38bbbe4c.png)
+![Screen Shot 2023-05-04 at 7 37 47 AM](https://user-images.githubusercontent.com/115792714/236194081-84ecdbbd-0bac-4cc1-a4d7-7500266ee2b0.png)
+![Screen Shot 2023-05-04 at 7 37 34 AM](https://user-images.githubusercontent.com/115792714/236194109-4001eac8-4395-4090-a870-70d83bb9d737.png)
 
 ## How to Contribute
 
